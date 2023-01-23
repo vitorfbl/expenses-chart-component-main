@@ -1,0 +1,518 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+ overflow: hidden;
+}
+html,body{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    max-width:100vw;
+    height: 100%;
+    max-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(27, 66%, 92%);
+  
+}
+.container{
+display: block;
+    
+}
+.balance{
+    position: relative;
+    width: 500px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: hsl(10, 79%, 65%);
+    color: #fff;
+}
+.tM{
+    position: relative;
+    bottom:20px;
+    left: 05px;
+}
+.logo{
+    position: absolute;
+    top: 35px;
+    margin-left: 400px;
+}
+.myB{
+    
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-weight: 400;
+}
+.balanceValue{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.spending{
+    position: relative;
+    top: 30px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.title{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.lowerPart{
+    border-top: 2px solid hsl(27, 66%, 92%);
+    left: 30px;
+    position: relative;
+    top: 360px;
+    width: 430px;
+    
+}
+.Porcentagem{
+    position: absolute;
+    top:30px ;
+    left: 385px;
+    font-weight: 700;
+}
+.text{
+    position: absolute;
+    top:50px ;
+
+    font-weight: 400;
+    text-transform: lowercase; 
+    left: 312px;
+    color:hsl(28, 10%, 53%);
+
+}
+.monday{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    border-radius: 5px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+}
+.mondayT{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.mon{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+.tuesday{
+    position: absolute;
+    top: 199px;
+    left: 90px;
+    border-radius: 5px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+}
+.tuesdayT{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.tue{
+    position: absolute;
+    top: 300px;
+    left: 95px;
+}
+.wednesday{
+    position: absolute;
+    top: 149px;
+    left: 150px;
+    border-radius: 5px;
+    width: 40px;
+    background-color: hsl(186, 34%, 60%);
+}
+.wednesdayT{
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.wed{
+    position: absolute;
+    top: 300px;
+    left: 155px;
+}
+.thursdays{
+    position: absolute;
+    top: 213px;
+    left: 215px;
+    border-radius: 5px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+}
+.thursdaysT{
+    position: absolute;
+    top: 160px;
+    left: 205px;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.thu{
+    position: absolute;
+    top: 300px;
+    left: 220px;
+}
+.friday{
+    position: absolute;
+    top: 237px;
+    left: 280px;
+    border-radius: 5px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+}
+.fridayT{
+    position: absolute;
+    top: 180px;
+    left: 270px;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.fri{
+    position: absolute;
+    top: 300px;
+    left: 290px;
+}
+.saturday{
+    position: absolute;
+    top: 177px;
+    left: 350px;
+    border-radius: 5px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+}
+.saturdayT{
+    position: absolute;
+    top: 117px;
+    left: 340px;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.sat{
+    position: absolute;
+    top: 300px;
+    left: 360px;
+}
+.sunday{
+    position: absolute;
+    top: 231px;
+    left: 420px;
+    border-radius: 5px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+}
+.sundayT{
+    position: absolute;
+    top: 171px;
+    left: 410px;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.sun{
+    position: absolute;
+    top: 300px;
+    left: 425px;
+}
+.charts:hover{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+@media (max-width: 375px) {
+
+    .balance{
+        position: relative;
+        width: 375px;
+        height: 120px;
+        border-radius: 15px;
+        background-color: hsl(10, 79%, 65%);
+        color: #fff;
+    }
+    .logo{
+        position: absolute;
+        top: 35px;
+        margin-left: 300px;
+    }
+
+    .spending{
+        position: relative;
+        top: 30px;
+        width: 375px;
+        height: 55vh;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+    .monday{
+        position: absolute;
+        top: 250px;
+        left: 20px;
+        border-radius: 5px;
+        width: 30px;
+        background-color: hsl(10, 79%, 65%);
+    }
+    .mondayT{
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        width: 45px;
+        height: 40px;
+        color: #fff;
+        background-color: black;
+        border-radius: 5px;
+    
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+    }
+    .mon{
+        position: absolute;
+        top: 300px;
+        left: 20px;
+    }
+    .tuesday{
+        position: absolute;
+        top: 199px;
+        left: 80px;
+        border-radius: 5px;
+        width: 30px;
+        background-color: hsl(10, 79%, 65%);
+    }
+    .tuesdayT{
+        position: absolute;
+        top: 150px;
+        left: 70px;
+        width: 50px;
+        height: 40px;
+        color: #fff;
+        background-color: black;
+        border-radius: 5px;
+    
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+    }
+    .tue{
+        position: absolute;
+        top: 300px;
+        left: 85px;
+    }
+    .wednesday{
+        position: absolute;
+        top: 149px;
+        left: 140px;
+        border-radius: 5px;
+        width: 30px;
+        background-color: hsl(186, 34%, 60%);
+    }
+    .wednesdayT{
+        position: absolute;
+        top: 100px;
+        left: 130px;
+        width: 50px;
+        height: 40px;
+        color: #fff;
+        background-color: black;
+        border-radius: 5px;
+    
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+    }
+    .wed{
+        position: absolute;
+        top: 300px;
+        left: 140px;
+    }
+    .thursdays{
+        position: absolute;
+        top: 213px;
+        left: 205px;
+        border-radius: 5px;
+        width: 30px;
+        background-color: hsl(10, 79%, 65%);
+    }
+    .thursdaysT{
+        position: absolute;
+        top: 160px;
+        left: 195px;
+        width: 50px;
+        height: 40px;
+        color: #fff;
+        background-color: black;
+        border-radius: 5px;
+    
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+    }
+    .thu{
+        position: absolute;
+        top: 300px;
+        left: 200px;
+    }
+    .friday{
+        position: absolute;
+        top: 237px;
+        left: 270px;
+        border-radius: 5px;
+        width: 30px;
+        background-color: hsl(10, 79%, 65%);
+    }
+    .fridayT{
+        position: absolute;
+        top: 180px;
+        left: 255px;
+        width: 50px;
+        height: 40px;
+        color: #fff;
+        background-color: black;
+        border-radius: 5px;
+    
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+    }
+    .fri{
+        position: absolute;
+        top: 300px;
+        left: 265px;
+    }
+    .saturday{
+        position: absolute;
+        top: 177px;
+        left: 315px;
+        border-radius: 5px;
+        width: 30px;
+        background-color: hsl(10, 79%, 65%);
+    }
+    .saturdayT{
+        position: absolute;
+        top: 117px;
+        left: 320px;
+        width: 50px;
+        height: 40px;
+        color: #fff;
+        background-color: black;
+        border-radius: 5px;
+    
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+    }
+    .sat{
+        position: absolute;
+        top: 300px;
+        left: 320px;
+    }
+    .sunday{
+        position: absolute;
+        top: 231px;
+        left: 420px;
+        border-radius: 5px;
+        width: 40px;
+        background-color: hsl(10, 79%, 65%);
+    }
+    .sundayT{
+        position: absolute;
+        top: 171px;
+        left: 410px;
+        width: 60px;
+        height: 40px;
+        color: #fff;
+        background-color: black;
+        border-radius: 5px;
+    
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+    }
+    .sun{
+        position: absolute;
+        top: 300px;
+        left: 425px;
+    }
+.charts{
+   flex-wrap:no-wrap ;
+}
+}
+    
+  

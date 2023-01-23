@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="balance">
+      <h4 class="myB">My Balance</h4>
+      <h1 class="balanceValue" id="balanceValue">$921.48</h1>
+      <img src="/images/logo.svg" alt="" class="logo">
+    </div>
+
+    <div class="spending">
+      <h2 class="title" style="color: hsl(25, 47%, 15%);">Spending - Last 7 days</h2>
+      <div class="charts">
+       
+        <span id="monT" class="mondayT hidden">$17.45</span>
+        <span id="mon" class="monday"></span>
+        <p class="mon">mon</p>
+
+        <span id="tue" class="tuesday"></span>
+        <span id="tueT" class="tuesdayT hidden">$34.91</span>
+        <p class="tue">tue</p>
+
+        <span id="wed" class="wednesday"></span>
+        <span id="wedT" class="wednesdayT hidden">$52.36</span>
+        <p class="wed">wed</p>
+
+        <span id="thu" class="thursdays"></span>
+        <span id="thuT" class="thursdaysT hidden">$31.07</span>
+        <p class="thu">thu</p>
+
+        <span id="fri" class="friday"></span>
+        <span id="friT" class="fridayT hidden">$23.39</span>
+        <p class="fri">fri</p>
+
+        <span id="sat" class="saturday"></span>
+        <span id="satT" class="saturdayT hidden">$43.28</span>
+        <p class="sat">sat</p>
+
+        <span id="sun" class="sunday"></span>
+        <span id="sunT" class="sundayT hidden">$25.48</span>
+        <p class="sun">sun</p>
+      </div>
+      <div class="lowerPart">
+        <p style="color: hsl(28, 10%, 53%);;">Total this mounth</p>
+        <h1 class="tM" style="color:hsl(25, 47%, 15%);">$478.33</h1>
+        <P class="Porcentagem">+2.4%</P>
+        <p class="text">From Last Month</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
